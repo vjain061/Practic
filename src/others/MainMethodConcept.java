@@ -1,4 +1,4 @@
-package other;
+package others;
 
 public class MainMethodConcept {
 

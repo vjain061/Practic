@@ -1,4 +1,4 @@
-package collectionPractic;
+package collection;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class SortMapByValue {
+public class SortMapByValue1 {
 	public static void main(String[] args) {
 		Map<String, String> mapString = new HashMap<>();
 

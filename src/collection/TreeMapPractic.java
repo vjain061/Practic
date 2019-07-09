@@ -1,4 +1,4 @@
-package collectionPractic;
+package collection;
 
 import java.util.TreeMap;
 

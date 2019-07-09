@@ -1,4 +1,4 @@
-package stringProgram;
+package stringPractice;
 
 public class StringBuilderTricky {
 

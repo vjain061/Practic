@@ -1,4 +1,4 @@
-package collectionPractic;
+package collection;
 
 public class HowToFindLengthOfStringUsingCompareToMethod {
 

@@ -1,4 +1,4 @@
-package collectionPractic;
+package collection;
 
 public class Customer implements Comparable<Customer> {
 	private int customerId;

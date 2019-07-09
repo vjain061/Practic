@@ -1,10 +1,10 @@
-package collectionPractic;
+package collection;
 
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class FailFastExample {
+public class FailFastExample1 {
 
 	public static void main(String[] args) {
 		

@@ -1,4 +1,4 @@
-package exceptionHandling;
+package exceptionConcept;
 
 public class ControlFlowInNestedTryCatchFinally {
 

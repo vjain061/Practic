@@ -1,10 +1,10 @@
-package collectionPractic;
+package collection;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ComparatorExample {
+public class ComparatorExample1 {
 	public static void main(String[] args) {
 		CustomerForComparator c1 = new CustomerForComparator(1, "vaibhav", "indore");
 		CustomerForComparator c2 = new CustomerForComparator(2, "rahul", "delhi");

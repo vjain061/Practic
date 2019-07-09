@@ -1,10 +1,10 @@
-package threadingPractic;
+package threadPractic;
 
-public class WaitMethodWorking {
+public class WaitMethodWorking1 {
 
 	public static void main(String[] args) {
-		Thread t = new Thread(new MyThread(), "FirstThread");
-		Thread t2 = new Thread(new MyThread(), "SecondThread");
+		Thread t = new Thread(new MyThread1(), "FirstThread");
+		Thread t2 = new Thread(new MyThread1(), "SecondThread");
 
 		t.setPriority(10);
 		t.start();
@@ -13,7 +13,7 @@ public class WaitMethodWorking {
 
 }
 
-class MyThread implements Runnable {
+class MyThread1 implements Runnable {
 
 	@Override
 	public void run() {
@@ -29,9 +29,9 @@ class MyThread implements Runnable {
 	public synchronized void printTable() throws InterruptedException {
 		for (int i = 1; i <= 10; i++) {
 			System.out.println(Thread.currentThread() + " " + i);
-			//this.wait(500);
+			// this.wait(500);
 			this.notify();
-			System.out.println("Task done for "+Thread.currentThread());
+			System.out.println("Task done for " + Thread.currentThread());
 		}
 	}
 }

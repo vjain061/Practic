@@ -1,4 +1,4 @@
-package other;
+package others;
 
 import java.io.*;
 import java.math.*;
