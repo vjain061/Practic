@@ -1,13 +1,33 @@
 package others;
 
-public class ConstructorConcepts {
+/*class ParentConstructorConcepts {
+	public ParentConstructorConcepts(int a) {
 
-	public void ConstructorConcepts() {
+	}
+}
+
+public class ConstructorConcepts extends ParentConstructorConcepts{
+
+	public ConstructorConcepts() {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}*/
+class ParentConstructorConcepts {
+	private ParentConstructorConcepts() {
+
+	}
+}
+public class ConstructorConcepts extends ParentConstructorConcepts{
+	public ConstructorConcepts(){
 		
 	}
-	
+
 	public static void main(String[] args) {
 		
 	}
-
 }
